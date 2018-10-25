@@ -1,0 +1,68 @@
+/* This is where we will be writing all of your styles */
+@import url('https://fonts.googleapis.com/css?family=Bebas');
+
+body {
+  background-color: green;
+  color: yellow;
+  font-family: "Bebas", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+
+}
+
+
+.birds {
+  color: blue;
+  font-style: italic;
+  margin-top: 10px; margin-bottom: 10px;
+}
+
+.birds:hover {
+  color:pink;
+}
+
+.mammals {
+  color: red;
+  font-weight: bold;
+  padding-left: 20px; padding-right: 20px;
+}
+
+.fish {
+  color: orange;
+  text-decoration: underline;
+  padding: 20px 10px 10px 10px;
+}
+
+#lime{
+  background-color: lime;
+}
+
+li {
+  width: 250px;
+  display: inline-block;
+}
+
+.gifs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
